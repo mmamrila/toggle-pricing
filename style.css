@@ -37,6 +37,10 @@ body {
 .left {
   width: 350px;
   height: 450px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
   background: #FFFFFF;
   box-shadow: 0px 9px 25px;
   border-radius: 9px;
@@ -46,6 +50,10 @@ body {
 .center {
   width: 350px;
   height: 525px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
   background: #FFFFFF;
   box-shadow: 0px 9px 25px;
   border-radius: 9px;
@@ -56,6 +64,10 @@ body {
 .right {
   width: 350px;
   height: 450px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
   background: #FFFFFF;
   box-shadow: 0px 9px 25px;
   border-radius: 9px;
@@ -168,3 +180,4 @@ input:checked + .slider:before {
   -webkit-transform: translateX(34px);
   box-shadow: inset 0px 4px 7px rgba(0, 0, 0, 0.27);
 }
+
