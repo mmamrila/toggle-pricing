@@ -95,6 +95,7 @@ body {
   display: flex;
   flex-direction: row;
   justify-content: center;
+  flex-wrap: wrap;
   font-family: "roboto", sans-serif;
   color: #30343E;
 }
@@ -199,17 +200,12 @@ h3 {
   font-weight: 400;
   font-size: 20px;
   line-height: 23.44px;
-  color: #FFFFFF;
+  color: #FF9E2D;
   margin-right: 28px;
 }
 
-.monthly:after {
-  font-family: "roboto", sans-serif;
-  font-weight: 400;
-  font-size: 20px;
-  line-height: 23.44px;
-  color: #FF9E2D;
-  margin-right: 28px;
+.monthly.color {
+  color: #FFFFFF;
 }
 
 .annually {
@@ -221,13 +217,8 @@ h3 {
   margin-left: 28px;
 }
 
-.annually:after {
-  font-family: "roboto", sans-serif;
-  font-weight: 400;
-  font-size: 20px;
-  line-height: 23.44px;
+.annually.color {
   color: #FF9E2D;
-  margin-left: 28px;
 }
 
 .switch {
@@ -286,5 +277,9 @@ input:checked + .slider:before {
   -ms-transform: translateX(34px);
   -webkit-transform: translateX(34px);
   box-shadow: inset 0px 4px 7px rgba(0, 0, 0, 0.27);
+}
+
+@media (max-width: 744) {
+  
 }
 
